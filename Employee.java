@@ -39,6 +39,6 @@ public class Employee {
         System.out.println("Employee Annual Salary:"+employee.getSalary());
         employee.raisedSalary(500);
         System.out.println("Employee Raised Salary:"+employee.getSalary());
-         System.out.println(employee);
+         System.out.println(employee.toString());
     }
 }
